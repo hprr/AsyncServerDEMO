@@ -1,0 +1,60 @@
+#忽略配置文件
+*.ini
+.env
+# 忽略编译生成的中间文件
+*.d
+# 忽略编译生成的目标文件
+*.slo
+*.lo
+*.o
+*.obj
+# 忽略预编译头文件
+*.gch
+*.pch
+# 忽略编译生成的动态库文件
+*.so
+*.dylib
+*.dll
+# 忽略Fortran模块文件
+*.mod
+*.smod
+# 忽略编译生成的静态库文件
+*.lai
+*.la
+*.a
+*.lib
+# 忽略可执行文件
+*.exe
+*.out
+*.app
+node_modules/
+*.log
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# 构建输出
+x64/
+x86/
+Debug/
+Release/
+*.ilk
+*.pdb
+*.idb
+*.tlog
+*.log
+*.lastbuildstate
+*.recipe
+
+VarifyServer/config.json
